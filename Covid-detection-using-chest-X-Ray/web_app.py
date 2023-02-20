@@ -21,7 +21,7 @@ st.write("""
 # creating the sidebar
 st.sidebar.header("Upload Image")
 st.sidebar.markdown("""
-[Example Jpeg input file](https://github.com/AchuAshwath/MiniProject/blob/main/IM-0143-0001.jpeg)
+[Example Jpeg input file](https://github.com/Vanisree/MiniProject/blob/main/IM-0143-0001.jpeg)
 """)
 
 upload_file = st.sidebar.file_uploader("Upload your jpeg file here", type=["jpeg", "jpg","png"])
